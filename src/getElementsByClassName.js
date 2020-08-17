@@ -5,8 +5,6 @@
 
 // But instead we're going to implement it from scratch:
 
-
-
 var getElementsByClassName = function(className) {
 
   let result = [];
@@ -23,7 +21,7 @@ var getElementsByClassName = function(className) {
     }
 
   };
- console.log('test')
+
   search(body);
   return result;
 };
